@@ -1,0 +1,401 @@
+/*
+Theme Name: Portfolio
+Author: Ryan Bresnahan
+Author URI: http://www.ryanbresnahan.com
+Template: elvinaa
+Description: Ryan Bresnahan Portfolio
+Version: 1.0
+Text Domain: portfolio
+*/
+
+/* Overrides lines 53 - 60 dynamic.css.php */
+ h1:hover,
+    h2:hover,
+    h3:hover,
+    h4:hover,
+    h5:hover,
+    h6:hover{
+        color: #444 !important;    
+    }
+
+.section-head{margin-left:15px;}
+.section-body{margin:0 15px;}
+
+/* header */
+.homepage-container {/*width:800px;*/ font-size: 1.1em;}
+
+#parallax-bg #slider-wrapper .inner-overlay:before{
+    background: none;
+}
+
+.admin-bar #parallax-bg #slider-wrapper:before{
+    background:none;
+}
+
+.header-sidebar{
+    margin-top: 25px;
+    font-size:1.2em;
+    text-align: center;
+}
+
+
+ul#menu-header-navigation li{
+    display: inline;
+    list-style-type: none;
+    margin-right:50px;
+    font-size:1.8em;
+}
+
+ul#menu-header-navigation li:last-child{margin-right:0;}
+
+ul#menu-header-navigation li a{ color:#ffffff; }
+ul#menu-header-navigation li a:hover{ color:#54A2CC; }
+
+.header-navigation-sidebar {
+    margin-top: 25px;
+    /* font-size: 2em; */
+    text-align: center;
+}
+
+.slide-bg-section h1, .slide-bg-section, .slide-bg-section {color:#fff;}
+
+/* Single PAge Header */
+.single-page-header{
+    height:45px;
+    background-color: #000;
+}
+
+.single-page-header-text{
+    font-size:1.2em;
+    padding-top:10px;
+    color:white;
+}
+
+.secondary-logo{width:30px; text-align: center;}
+
+
+/* posts */
+.edit-btn{
+    color:darkred;
+}
+
+.blog-wrapper .details a {
+    text-align:left;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 11px;
+    padding: 5px 10px;
+    /* box-shadow: 1px 1px 15px 0px #6f6f6f73; */
+    margin-bottom: 20px;
+}
+
+.blog-wrapper .details a:hover { background-color:#54A2CC; }
+
+.blog-wrapper .details a {
+    background-color: #2e5a71;
+}
+
+/* post catagory header properties */
+
+.cat-list-formatting {
+    margin-bottom:10px;
+}
+
+article .cat-name li a{
+    margin-left: 0;
+}
+
+.cat .post-cat-name{
+    position: relative;
+}
+
+article .post-cat-name li a{
+    display: block;
+    font-size: 12px;
+    /* margin-left: 35px; */
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.post-cat-name span.meta-item{
+    margin-top: 15px;
+    background: #f1f1f1;
+    padding: 10px 20px;
+    border-radius: 45px;
+    font-size: 11px;
+}
+
+.post-cat-name span.meta-item i{
+    padding-right: 5px;
+}
+
+
+/* post featured image properties */
+article .post-image img {
+    border-radius: 0px;
+    -webkit-box-shadow: 0px;
+    -moz-box-shadow: 0px;
+    box-shadow: none;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Reading List */
+.book-table-format{margin-bottom:75px;}
+.book-table-thead{border-top:0px; font-weight:bold;}
+.book-title-column-home{width:600px;}
+.book-title-column-home a:hover {color:#54A2CC; ;}
+
+
+/* Body Styles */
+.body-font{
+    font-size:1em;
+}
+
+ul .body-font {
+    font-size:1em;
+}
+
+.portfolio-description {
+    margin-top:10px;
+    font-size:1.1em;
+}
+
+/* Excerpt Styles */
+.excerpt-format {font-size:1.22em;}
+
+
+/* Responsive */
+
+/* Landscape iPhone X */
+@media only screen 
+  and (max-device-width: 820px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+      .header-logo img {width:130px; margin-top:15px;}
+      .slide-bg-section h1 {font-size:2.2em;}
+      .portfolio-description{font-size:1.4em;}
+      .header-sidebar{font-size:1.1em; margin-top:10px;}
+      ul#menu-header-navigation {margin-left:0px;}
+      ul#menu-header-navigation li {
+        margin-bottom:10px;
+        display: inline;
+        font-size:1.6em;
+      }
+      ul#menu-header-navigation li:last-child{margin-right:0;}
+      ul#menu-header-navigation li a{color:#ffffff;}
+      ul#menu-header-navigation li a:hover{color:#54A2CC;}
+      
+      .slide-bg-section .slide-bg-text {vertical-align:top; }
+}
+
+/* Landscape Galaxy S8 */
+@media only screen 
+  and (max-width: 740px) { 
+
+      .header-logo img {width:100px; margin-top:15px;}
+      .slide-bg-section h1 {font-size:2.2em;}
+      .portfolio-description{font-size:1.4em;}
+      .header-sidebar{font-size:1.1em; margin-top:10px;}
+      ul#menu-header-navigation {margin-left:0px;}
+      ul#menu-header-navigation li {
+        margin-bottom:10px;
+        display: inline;
+        font-size:1.6em;
+      }
+      ul#menu-header-navigation li:last-child{margin-right:0;}
+      ul#menu-header-navigation li a{color:#ffffff;}
+      ul#menu-header-navigation li a:hover{color:#54A2CC;}
+      
+      .slide-bg-section .slide-bg-text {vertical-align:top; }
+        
+}
+
+
+/* Portrait iPhoneX*/
+@media only screen 
+  and (max-device-width: 375px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+      
+      .header-logo img {width:80px;}
+      .slide-bg-section h1 {font-size:2.6em;}
+      .portfolio-description{font-size:1.4em;}
+      
+      ul#menu-header-navigation {margin-left:0px;}
+      ul#menu-header-navigation li {
+        margin-right:0px;
+        margin-bottom:10px;
+        display: block;
+        font-size:1.8em;
+      }
+      ul#menu-header-navigation li:last-child{margin-right:0;}
+      ul#menu-header-navigation li a{color:#ffffff;}
+      ul#menu-header-navigation li a:hover{color:#54A2CC;}
+}
+
+
+/* Portrait Galaxy S8 */
+@media only screen and (max-width: 360px) {
+    .header-logo img {width:130px;}
+    .slide-bg-section h1 {font-size:2.5em;}
+    .portfolio-description{font-size:1.4em;}
+    
+    ul#menu-header-navigation {margin-left:0px;}
+    ul#menu-header-navigation li {
+        margin-right:0px;
+        margin-bottom:10px;
+        display: block;
+        font-size:1.8em;
+      }
+    ul#menu-header-navigation li:last-child{margin-right:0;}
+    ul#menu-header-navigation li a{color:#ffffff;}
+    ul#menu-header-navigation li a:hover{color:#54A2CC;}
+}
+
+
+
+/* Landscape 
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+      
+
+    .header-logo img {width:120px;}
+    
+  
+    
+    .slide-bg-section h1 {font-size:2.1em;}
+    
+    .header-sidebar {font-size: 1.1em; margin-top:15px;}
+    
+    .portfolio-description {margin-top: 5px; font-size: 1.1em;}
+    
+    .section-head{font-size: 2em;}
+    
+    .title-date h1>a {font-size:.8em;}
+    
+    #menu-header-navigation{margin-left:0px}
+    
+    ul#menu-header-navigation li{margin:0px 50px 7px 0px; font-size: 1.5em; }
+    
+      
+           .slide-bg-section .slide-bg-text{vertical-align: top; padding-top:10px;}
+      
+      
+      #main .content-inner{
+        margin-top: 0;
+      }
+
+}
+
+
+/* Portrait 
+@media screen 
+  and (max-device-width: 360px) and (orientation: landscape) {
+   .header-logo img {width:120px;}
+          ul#menu-header-navigation {margin-left:0px;}
+    ul#menu-header-navigation li{
+        margin-right:0px;
+        margin-bottom:10px;
+        display: block;
+        font-size:1.6em;
+    }
+    ul#menu-header-navigation li:last-child{margin-right:0;}
+    ul#menu-header-navigation li a{ color:#ffffff; }
+    ul#menu-header-navigation li a:hover{ color:#54A2CC; }
+      
+      .slide-bg-section .slide-bg-text{vertical-align: top; padding-top:15%;}
+}
+
+/* Galaxy S8 Landscape 
+@media screen 
+  and (max-device-width: 740px) {
+    .header-logo img {width:120px;}
+    .header-sidebar {margin-top:10px;}
+          
+    ul#menu-header-navigation li{   
+        margin-bottom:10px;
+        display: inline;
+        font-size:1.6em;
+    }
+    ul#menu-header-navigation li:last-child{margin-right:0;}
+    ul#menu-header-navigation li a{ color:#ffffff; }
+    ul#menu-header-navigation li a:hover{ color:#54A2CC; }
+      
+    .slide-bg-section .slide-bg-text{vertical-align: top; padding-top:5px;}
+} /* END S8 landscape */
+
+/*
+
+@media only screen and (max-width: 745px) {
+    
+
+    .header-logo img {width:125px;}
+    
+
+    
+    .slide-bg-section h1 {font-size:2.4em;}
+    
+    .header-sidebar {font-size: 1.2em; margin-top:15px;}
+    
+    .portfolio-description {margin-top: 5px;font-size: 1.2em;}
+    
+    .section-head{font-size: 2em;}
+    
+    .title-date h1>a {font-size:.8em;}
+    
+    #menu-header-navigation{margin-left:0px}
+    
+    ul#menu-header-navigation li{margin:0px 0px 7px 0px; display: block; }
+    
+    #menu-header-navigation li a:link {}
+    
+}
+
+
+@media only screen and (orientation: landscape) {
+
+    .header-logo img {width:175px;}
+
+    .slide-bg-section h1{padding-top:10px;}
+    
+    .portfolio-description {margin-top: 2px;font-size: 1.2em;}
+    
+    .header-sidebar {margin-top: 15px;}
+    
+    .header-navigation-sidebar{font-size:1.4em; margin-top:15px;}
+}
+
+*/
+
+
+
+
+/* ***
+
+    ul#menu-header-navigation {margin-left:0px;}
+    ul#menu-header-navigation li{
+        margin-right:0px;
+        margin-bottom:10px;
+        display: block;
+        font-size:1.8em;
+    }
+    ul#menu-header-navigation li:last-child{margin-right:0;}
+    ul#menu-header-navigation li a{ color:#ffffff; }
+    ul#menu-header-navigation li a:hover{ color:#54A2CC; }
+    
+      .slide-bg-section .slide-bg-text{vertical-align: top; padding-top:25%;}
+      
+
+    article {
+    margin-bottom: 0px;
+      }
+    .pagination{display:none}
+
+**** */
