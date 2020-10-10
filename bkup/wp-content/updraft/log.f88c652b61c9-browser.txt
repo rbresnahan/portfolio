@@ -1,0 +1,29 @@
+0000.054 (R) [notice] Looking for db archive: file name: backup_2020-10-09-0525_Ryan_Bresnahan_96c5f6500b15-db.gz
+0000.055 (R) [notice] Archive is expected to be size: 100.9 KB: OK
+0000.060 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.062 (R) [notice] Unpacking backup... (backup_2020-10-09-0525_Ryan_Bresnahan_96c5f6500b15-db.gz, 0.1 Mb)
+0000.073 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.143 (R) [notice] Enabling Maintenance mode&#8230;
+0000.175 (R) [notice] Backup of: https://ryanbresnahan.com
+0000.188 (R) [notice] Content URL: https://ryanbresnahan.com/wp-content
+0000.188 (R) [notice] Uploads URL: https://ryanbresnahan.com/wp-content/uploads
+0000.188 (R) [notice] Old table prefix: wp_
+0000.188 (R) [notice] Site information: multisite = 0
+0000.189 (R) [notice] New table prefix: wp_
+0000.199 (R) [notice] Processing table (InnoDB):  wp_options
+0000.744 (R) [notice] Processing table (InnoDB):  wp_users
+0000.803 (R) [notice] Processing table (InnoDB):  wp_usermeta
+0000.855 (R) [notice] Processing table (InnoDB):  wp_commentmeta
+0000.891 (R) [notice] Processing table (InnoDB):  wp_comments
+0000.941 (R) [notice] Processing table (InnoDB):  wp_links
+0000.974 (R) [notice] Processing table (InnoDB):  wp_postmeta
+0001.028 (R) [notice] Processing table (InnoDB):  wp_posts
+0001.240 (R) [notice] Processing table (InnoDB):  wp_term_relationships
+0001.295 (R) [notice] Processing table (InnoDB):  wp_term_taxonomy
+0001.340 (R) [notice] Processing table (InnoDB):  wp_termmeta
+0001.400 (R) [notice] Processing table (InnoDB):  wp_terms
+0001.440 (R) [notice] Disabling Maintenance mode&#8230;
+0001.440 (R) [notice] Finished: lines processed: 41 in 1.36 seconds
+0001.441 (R) [notice] Cleaning up rubbish...
+0001.485 (R) [notice] Plugin path jetpack/jetpack.php not found: de-activating.
+0001.496 (R) [notice] Restore successful!
