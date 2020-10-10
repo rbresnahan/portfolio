@@ -1,0 +1,46 @@
+0000.030 () Opened log file at time: Fri, 09 Oct 2020 19:48:41 +0000 on http://localhost/ryanbresnahan
+0000.030 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.29 WP: 5.5.1 PHP: 7.4.10 (apache2handler, Windows NT RYAN 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.14-MariaDB WPLANG: en_US Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 33.3M | 6M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.030 () Free space on disk containing Updraft's temporary directory: 19227.4 MB
+0000.018 () Opened log file at time: Fri, 09 Oct 2020 19:48:42 +0000 on http://localhost/ryanbresnahan
+0000.019 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.29 WP: 5.5.1 PHP: 7.4.10 (apache2handler, Windows NT RYAN 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.14-MariaDB WPLANG: en_US Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 28.7M | 26M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.019 () Free space on disk containing Updraft's temporary directory: 19226.9 MB
+0000.034 () Ensuring WP_Filesystem is setup for a restore
+0000.037 () WP_Filesystem is setup and ready for a restore
+0000.053 () Restore job started. Entities to restore: db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.060 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.062 () Entity: db
+0000.062 () restore_backup(backup_file=backup_2020-10-09-0525_Ryan_Bresnahan_96c5f6500b15-db.gz, type=db, info=a:0:{}, last_one=1)
+0000.062 () Unpacking backup... (backup_2020-10-09-0525_Ryan_Bresnahan_96c5f6500b15-db.gz, 0.1 Mb)
+0000.072 () Database successfully unpacked
+0000.073 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.073 () Using direct MySQL access; value of use_mysqli is: 1
+0000.074 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.143 () Max packet size: 32 MB
+0000.143 () Entering maintenance mode
+0000.143 () Enabling Maintenance mode&#8230;
+0000.175 () Backup of: https://ryanbresnahan.com
+0000.188 () Content URL: https://ryanbresnahan.com/wp-content
+0000.188 () Uploads URL: https://ryanbresnahan.com/wp-content/uploads
+0000.188 () Old table prefix: wp_
+0000.188 () Site information: multisite=0
+0000.189 () New table prefix: wp_
+0000.199 () Processing table (InnoDB): wp_options
+0000.256 () Restoring prior UD configuration (table: wp_options; keys: 97)
+0000.744 () Processing table (InnoDB): wp_users
+0000.803 () Processing table (InnoDB): wp_usermeta
+0000.855 () Processing table (InnoDB): wp_commentmeta
+0000.891 () Processing table (InnoDB): wp_comments
+0000.941 () Processing table (InnoDB): wp_links
+0000.974 () Processing table (InnoDB): wp_postmeta
+0001.028 () Processing table (InnoDB): wp_posts
+0001.240 () Processing table (InnoDB): wp_term_relationships
+0001.295 () Processing table (InnoDB): wp_term_taxonomy
+0001.340 () Processing table (InnoDB): wp_termmeta
+0001.400 () Processing table (InnoDB): wp_terms
+0001.440 () Unlocking database and leaving maintenance mode
+0001.440 () Disabling Maintenance mode&#8230;
+0001.440 () Finished: lines processed: 41 in 1.36 seconds
+0001.441 () Cleaning up rubbish...
+0001.485 () Plugin path jetpack/jetpack.php not found: de-activating.
+0001.496 () Restore successful!
+0001.496 () Restore successful
